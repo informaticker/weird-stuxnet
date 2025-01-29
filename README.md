@@ -1,5 +1,9 @@
-## From description.txt
+This is a weird project that I have found on an old Sun Netra T1. 
 
+The files in this repo were last changed on 30 September 2011 08∶56∶51, which makes this a bit more interesting.
+
+## From description.txt
+```
 Genetic evolution of malware
 
 
@@ -30,3 +34,5 @@ Next steps:
 
 
 The project is carried out by Fabian Schläpfer and Adrien de Castelnau. A great help was also provided by John Doucette from Dalhousie university, Canada.
+```
+
