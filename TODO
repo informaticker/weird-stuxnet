@@ -1,0 +1,69 @@
+
+TODO
+
+###############################################################################
+# LOGIC
+###############################################################################
+
+- PROBLEM August 11th: If individuals use too much RAM, a fork() after a SIGALRM will fail due to insufficent memory.
+
+- Self-propagating code
+--- Assembly language Quine?
+
+- Provide the bots with weapons
+--- e.g. kill in the grammar
+
+- Combat and Sex
+--- based on file system location
+
+- Reward mechanism
+--- for example, Food, obtained using desirable behaviors
+--- ...
+
+- Meaningful network inputs
+--- cwd
+--- number of files and/or directories
+--- presence of other individuals
+--- machine information
+------ cpu and memory usage
+------ architecture
+------ hostname
+------ IP address
+------ ...
+--- the PID of any active process in the same directory (so can fight or mate)
+--- An enumerated encoding of the bot's location, to allow for increased statefulness
+
+- Reinforcement Learning
+--- Add mechanisms for humans to introduce artifical selection preasures into the system. Simple example is "pkill skynet". More complex examples would be viri (programs which corrupt executables, preventing reproduction), and predators (programs which, for example, watch a particular file and kill any process that tries to open it.)
+
+- Aging
+
+- Genders
+--- reproduction preferences
+------ only mate with individuals that are at least / no more than X different from me
+
+- Enviromental tradeoffs
+--- rapid aging
+------ use of CPU cycles
+------ or frequent writing to disk
+
+- More complex genetics
+--- Gene regulatory networks
+------ All non-genetic reinforcement learning with "gene regulatory network"-like arch. The initial state of the network should probably be inherited. GRN could cut off or re-introduce connections in the primary network base on the results of their use. e.g. Nodes which are highly active when malformed commands are generated could have their outputs deactived.
+--- tradeoffs
+------ command frequency / combat skill
+------ num buffers / word size
+
+###############################################################################
+# PROGRAMMING
+###############################################################################
+
+- Rewrite or remove Population::plot() method, it's crap
+- public/private, getters/setters
+- 
+
+
+
+activation:  100*exp(-1*(((x)^2)/(2*75*75)))
+linearize 1: sqrt(-2*75*75*log(y/100))
+linearize 2: sqrt((2*75*75*x)/(ln(100)))

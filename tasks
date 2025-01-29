@@ -1,0 +1,11 @@
+#
+# specify tasks to run here. run.pl will read tasks from this file.
+#
+# ---- order arguments as follows (seperated by space):
+# name, popsize, elitesize,
+# mutation, mutation_element, crossover, mutation_factor, fitness_type, net_type,
+# iterations, lifespan, minval, maxval, hidden-layers
+
+#botstest 50 7 0.9 0.3 0.1 0.5 fitness-novelty recurrent 50 50 -1 1 -1 2
+
+botstest 20 5 0.9 0.3 0.1 0.5 fitness-novelty recurrent 20 20 -1 1 -1 2
